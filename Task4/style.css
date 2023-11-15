@@ -1,0 +1,14 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+.button-container button {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border: 1px solid blue; /* Добавлена синяя рамка */
+    background-color: white; /* Установлен белый фон, если это необходимо */
+}
